@@ -3,9 +3,14 @@ public class App {
 
         // Conditional Structure
         boolean ihaveNoMoney = false;
+        boolean holiday = true;
 
         if (ihaveNoMoney) {
             System.out.println("Ask your parents to drive you to NU");
+        }
+        else if (holiday) {
+            System.out.println("Spend time with my family");
+       
         } else {
             // Step 1
             walkLRT();
