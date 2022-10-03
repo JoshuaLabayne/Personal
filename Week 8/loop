@@ -1,6 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        //FOR LOOP
+
+
+
+ //FOR LOOP
         for (int firstNameCount = 5; firstNameCount != 0; firstNameCount--) {
             System.out.println("joshua");
         }
@@ -11,8 +14,13 @@ public class App {
         int nickNameCount = 5;
 
         while (nickNameCount != 0) {
+             nickNameCount--;
+                if (nickNameCount == 3) {
+                System.out.println("Go ahead i will skip this third loop. i will ride on the next loop!");
+                continue;
+            }    
         System.out.println("pogi");
-        nickNameCount--;
+       
             }
                 
         //DO WHILE
@@ -22,5 +30,9 @@ public class App {
             System.out.println("Labayne");
             lastNameCount--;
         } while (lastNameCount != 0);
+    
+
+        
+
     }
 }
