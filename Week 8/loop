@@ -4,8 +4,12 @@ public class App {
 
 
  //FOR LOOP
-        for (int firstNameCount = 5; firstNameCount != 0; firstNameCount--) {
-            System.out.println("joshua");
+        for (int firstNameCount = 5; firstNameCount != 0; firstNameCount--) 
+            if (firstNameCount == 3) {
+                System.out.println("Wait! Timeout! I need to go to the bathroom!");
+                break;
+            }
+          System.out.println("joshua");
         }
     
     
