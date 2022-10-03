@@ -1,21 +1,21 @@
 public class App {
     public static void main(String[] args) throws Exception {
-
-        for (int i = 5; i != 0; i--) {
+        //FOR LOOP
+        for (int firstNameCount = 5; firstNameCount != 0; firstNameCount--) {
             System.out.println("joshua");
         }
     
     
                
-
+        //WHILE
         int nickNameCount = 5;
 
         while (nickNameCount != 0) {
         System.out.println("pogi");
         nickNameCount--;
-        }
+            }
                 
-    
+        //DO WHILE
         int lastNameCount = 5;
 
         do {
